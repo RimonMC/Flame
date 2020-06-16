@@ -152,11 +152,3 @@ function hasPadlocklol(member) {
     }
 
 }
-module.exports = {
-    getColor: function(member) {
-        if (member.displayHexColor == "#52D69E") {
-           return "#52D69E";
-        } else {
-            return member.displayHexColor;
-        }
-    },}

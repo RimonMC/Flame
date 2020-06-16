@@ -5,7 +5,6 @@ const config = require("./config.json");
 const Util = require('discord.js');
 const queue = new Map();
 const PREFIX = config.prefix;
-client.muted = require('./muted.json');
 const ms = require("ms")
 
 client.login(token);

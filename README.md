@@ -30,3 +30,9 @@ invite link can be found at: https://bot.rhip.xyz
 #serverinfo // #info - Shows the server's information
 
 #snipe - Snipes recent deleted message.
+
+#skin - Show's a minecraft player's skin
+
+#github - Link to the github repository
+
+#mcserver // #server - Minecraft server status.

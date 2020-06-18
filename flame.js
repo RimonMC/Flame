@@ -6,6 +6,11 @@ const Util = require('discord.js');
 const queue = new Map();
 const PREFIX = config.prefix;
 const ms = require("ms")
+const YouTube = require('simple-youtube-api');
+const ytdl = require('ytdl-core');
+const youtube = new YouTube(config.GOOGLE_API_KEY);
+const fetch = require('node-fetch')
+
 
 client.login(token);
 const fs = require("fs");
@@ -31,7 +36,7 @@ client.on("ready", () =>{
     client.user.setPresence({
         status: "online",  //You can show online, idle....
         game: {
-            name: "Flame's Servers" ,  //The message shown
+            name: "Flame's Servers | "+ client.guilds.size  ,  //The message shown
             type: "watching" //PLAYING: WATCHING: LISTENING: STREAMING:
         }
     });
@@ -42,6 +47,7 @@ client.on("ready", () =>{
     aliases.set("ig", "instagram");
     aliases.set("mc", "minecraft");
     aliases.set ("inv", "invite");
+    aliases.set ("server", "mcserver");
 
     console.log("\n\n- - -");
     console.log('FlameBot is online..\n\n');

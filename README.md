@@ -36,3 +36,5 @@ invite link can be found at: https://bot.rhip.xyz
 #github - Link to the github repository
 
 #mcserver // #server - Minecraft server status.
+
+#vote - Vote for the bot on top.gg

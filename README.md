@@ -38,3 +38,5 @@ invite link can be found at: https://bot.rhip.xyz
 #mcserver // #server - Minecraft server status.
 
 #vote - Vote for the bot on top.gg
+
+#conch - Ask the magic conch from spongebob a question!
